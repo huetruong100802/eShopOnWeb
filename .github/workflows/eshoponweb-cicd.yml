@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-hue
   LOCATION: southeastasia
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: ${{ secret.AZURE_CREDENTIALS.subscriptionId }}
+  SUBSCRIPTION-ID: ${{ secrets.AZURE_CREDENTIALS.subscriptionId }}
   WEBAPP-NAME: eshoponweb-webapp-hue
 
 
